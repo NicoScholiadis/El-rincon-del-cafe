@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosotros | El Cáfe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/coffee-love-svgrepo-com.svg" type="image/x-icon">
+</head>
+<body class="body">
+    <header>
+        <nav>
+        <ul>
+            <li>
+            <a href="index.html">Home</a>
+            </li>
+            <li>
+            <a href="elaboracion.html">Tipos de café</a>
+            </li>
+            <li>
+            ¿Quienes somos?
+            </li>
+            
+        </ul>
+        </nav>
+    </header>
+    <main>
+    <h2>¿Quienes somos?</h2>
+    <p>
+        Somos una empresa dedicada a la distribución de café en todo el país. Desde la cosecha hasta el empaquetado y la distribución, nos aseguramos de llevar el sabor y la calidad del café a todos nuestros clientes. <br> 
+        Trabajamos en estrecha colaboración con agricultores locales para seleccionar los mejores granos de café maduros y frescos. Utilizamos métodos sostenibles que respetan el medio ambiente y garantizan la calidad de nuestros productos. <br><br>
+        Utilizamos tecnología avanzada y métodos tradicionales para mantener el sabor y el aroma originales del café. <br>
+        Nos aseguramos de que cada paquete de café llegue en perfectas condiciones, listo para ser disfrutado. <br><br>
+    </p>
+    <h2>Contactanos!</h2>
+    <p>Estamos disponibles para responder tus consultas y atender tus pedidos. ¡No dudes en contactarnos!</p>
+    <p>Horario de atención: Lunes a Viernes, de 9:00 a.m. a 6:00 p.m.</p>
+    <p>Para consultas generales, llámanos al: +1168654000</p>
+    <p>Para pedidos o solicitudes especiales, escríbenos a: nicoscholiadis@gmail.com</p> <br> <br>
+    
+    <form id="myForm">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre"required>
+
+    <label for="apellido">Apellido:</label>
+    <input type="text" id="apellido" name="apellido" placeholder="Ingrese su apellido" required>
+
+    <label for="correo">Correo electrónico:</label>
+    <input type="email" id="correo" name="correo" placeholder="Ingrese su correo electrónico" required>
+
+    <label for="numero">Numero de telefono</label>
+    <input type="number" id="numero" placeholder="Ingrese su número de teléfono" required>
+
+    <label for="date">Fecha de nacimiento</label>
+    <input type="date" id="date" required>
+
+    <label>Seleccione su sexo:
+        <input type="radio" name="sexo" value="masculino">
+        Masculino
+        <input type="radio" name="sexo" value="femenino">
+        Femenino
+        <input type="radio" name="sexo" value="otro">
+        Otro
+        <input type="radio" name="sexo" value="PrefieroNoDecirlo">
+        Prefiero no decirlo
+    </label>
+
+    <input type="submit" value="Enviar">
+    </form>
+</main>
+
+<footer>
+    <a href="https://www.linkedin.com/in/nicolas-scholiadis/" target="_blank"> <img class="iconsFooter" src="img/linkedin-svgrepo-com.svg" alt="linkedin">
+    <a href="https://www.instagram.com/nicoscholiadis/" target="_blank"> <img class="iconsFooter" src="img/instagram-svgrepo-com.svg" alt="">
+    <a href="https://twitter.com/NicolasAgusti29" target="_blank"> <img class="iconsFooter" src="img/twitter-square-svgrepo-com.svg" alt="">
+    <a href="https://www.tiktok.com/@nicoagustinscholiadis" target="_blank"> <img class="iconsFooter" src="img/tiktok-svgrepo-com.svg" alt="">
+    </footer>
+    <!--<script>
+        document.getElementById("myForm").addEventListener("submit", function (event) {
+            var nombreInput = document.getElementById("nombre");
+            var apellidoInput = document.getElementById("apellido");
+            var correoInput = document.getElementById("correo");
+            var numeroInput = document.getElementById("numero");
+
+            if (isEmpty(nombreInput) || isEmpty(apellidoInput) || isEmpty(correoInput) || isEmpty(numeroInput)) {
+                event.preventDefault();
+                alert("Por favor, complete todos los campos del formulario.");
+            }
+        });
+    </script>-->
+</body>
+</html>
